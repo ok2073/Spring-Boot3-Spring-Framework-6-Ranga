@@ -11,7 +11,7 @@ public class GameRunner {
     }
 
     public void run() {
-        log.info("Running game: " + game);
+        log.info("Running game: {}", game);
         game.up();
         game.down();
         game.left();
